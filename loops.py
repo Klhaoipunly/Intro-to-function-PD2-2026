@@ -2,12 +2,15 @@ import turtle
 from turtle import *
 t = Turtle()
 t.shape('turtle')
-turtle.speed(1000000000000)
+turtle.speed(10000)
 
-sidelength = 100
-rotate = 90
-def square(x,y):
+for i in range(4):
+    t.forward(100)
+    t.left(90)
+
+def square():
+    #i is an incrementor/iterator
     for i in range(60):
-         t.forward(x)
-         t.left(y)
-square(100,90)
+        t.right(y)
+t.right(5)
+turtle.done()
