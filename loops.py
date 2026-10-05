@@ -24,22 +24,20 @@ t.shape('turtle')
         #square(length,90)
         #t.right(5)
         #length += 5
-
 #square2()
 
 def star(length):
     for i in range(5):
         t.forward(length)
-        t.right(144)
+        t.right(90)
 
 def star2():
     length = 10
-
-    for i in range(50):
+    for i in range(1000):
         star(length)
-        t.right(6)
-        length +=6
-
+        t.right(1)
+        length +=1
 star2()
 
 turtle.done()
+
